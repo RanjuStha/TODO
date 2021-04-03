@@ -1,15 +1,10 @@
-Overview
+# Overview
 
+This app demonstrates Simple To Do List Application implementing the CoreData which includes:
 
-This app demonstrates Simple To Do List Application implementing the CoreData whic includes:
-
-1. Add,Update,Delete the Task
-
-
-2. Mark and UnMark todo items.
-
-
-3. Search items.
+ - Add,Update,Delete the Task
+ - Mark and UnMark todo items.
+ - Search items.
 
 
 
