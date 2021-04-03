@@ -141,7 +141,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2BBA898A2618431B0061B208 /* Build configuration list for PBXNativeTarget "ToDoProject" */;
 			buildPhases = (
-				2C5B2DAFDD5DA4BB32AAC43A /* Build Project Frameworks */,
+				BCBD4D0F3EBCB5EF92AAC43A /* Build Project Frameworks */,
 				2BBA896F2618431A0061B208 /* Sources */,
 				2BBA89702618431A0061B208 /* Frameworks */,
 				2BBA89712618431A0061B208 /* Resources */,
@@ -203,7 +203,7 @@
 
 /* Begin PBXShellScriptBuildPhase section */
 
-	2C5B2DAFDD5DA4BB32AAC43A /* Build Project Frameworks */ = {
+	BCBD4D0F3EBCB5EF92AAC43A /* Build Project Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -223,6 +223,12 @@
 
 \"${PROJECT_FILE_PATH}/xcuserdata/.xcassets/Assets.xcassets\" false";			
 		};
+	
+
+	
+
+	
+
 	
 
 	
@@ -445,6 +451,16 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+		
+			/* Begin PBXBuildRule section */
+			
+
+			
+	
+			/* End PBXBuildRule section */
+		
+		
 
 /* Begin XCVersionGroup section */
 		2BBA897F2618431A0061B208 /* ToDoProject.xcdatamodeld */ = {
